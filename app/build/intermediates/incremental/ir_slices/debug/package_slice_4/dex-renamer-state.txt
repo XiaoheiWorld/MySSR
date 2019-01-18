@@ -1,0 +1,4 @@
+#Sat Jan 19 01:42:43 CST 2019
+base.0=D\:\\Code\\MySSR\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex

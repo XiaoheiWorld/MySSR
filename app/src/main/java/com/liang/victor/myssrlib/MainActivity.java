@@ -26,9 +26,8 @@ public class MainActivity extends Activity implements View.OnClickListener, VpnC
 
     @Override
     public void onClick(View v) {
-        //这里仅提供调用示例，具体请按照自己的配置去设置ip    远程端口    密码         协议类型
-        SS_SDK.getInstance().setProfile("210.201.90.218", 465, "p",
-                "chacha20", "auth_aes128_md5", "175", "tls1.2_ticket_auth", "mk");
+        SS_SDK.getInstance().setProfile("67.21.81.39", 80, "www.xiaoheijia.tk",
+                "aes-256-cfb", "auth_sha1_v4", "", "http_simple", "bing.com");
 //        SS_SDK.getInstance().setProfile("192.168.1.1", 443, "ingress",
 //           "auth_sha1");
         SS_SDK.getInstance().switchVpn(this);
