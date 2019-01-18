@@ -1,4 +1,4 @@
-package com.liang.victor.myssrlib;
+package com.xiaoheiworld.ssr;
 
 import android.app.Application;
 
