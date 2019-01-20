@@ -55,12 +55,12 @@ public class MainActivity extends Activity implements View.OnClickListener, VpnC
             case State.CONNECTING:
                 return;
             case State.CONNECTED:
-            case UN_KNOW:
                 mButton.setText("断开中");
                 break;
             case State.STOPPING:
                 return;
             case State.STOPPED:
+            case UN_KNOW:
                 mButton.setText("连接中");
                 break;
         }
