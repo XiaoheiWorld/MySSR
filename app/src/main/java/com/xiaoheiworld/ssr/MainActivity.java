@@ -65,7 +65,7 @@ public class MainActivity extends Activity implements View.OnClickListener, VpnC
                 break;
         }
         SS_SDK.getInstance().setProfile("67.21.81.39", 80, "www.xiaoheijia.tk",
-                "aes-256-cfb", "auth_sha1_v4", "", "http_simple", "bing.com");
+                "aes-256-cfb", "auth_sha1_v4", "", "http_simple", "");
         SS_SDK.getInstance().switchVpn(this);
     }
 

@@ -38,7 +38,7 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="10dp"
             android:gravity="center"
-            android:text="免费版本V1.0"
+            android:text="免费版本V1.1"
             android:textColor="#66ccff" />
     </RelativeLayout>
 

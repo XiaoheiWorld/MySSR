@@ -208,7 +208,7 @@ public class SS_SDK implements SetProfile {
         profile.remotePort = remotePort;
         profile.password = password;
         profile.localPort = 1080;
-        profile.udpdns = false;
+        profile.udpdns = true;
         profile.ipv6 = false;
         profile.bypass = false;
         profile.route = Route.GFWLIST;
